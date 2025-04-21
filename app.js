@@ -5,7 +5,7 @@ function sortear(){
     
     let sorteados = [];
     let numero;
-    //loop for
+    
     for (let i = 0; i < quantidade; i++) {
         numero = obterNumeroAleatorio(de, ate);
 
@@ -19,7 +19,7 @@ function sortear(){
 
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados:${sorteados}</label>`
-    //Colocando uma informação na tela
+    
     alterarStatusBotao ();
 }
 
